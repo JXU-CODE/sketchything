@@ -20,7 +20,11 @@ body{
     flex-wrap:wrap;
     max-width:250px;
 }
-
+#container2{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
 .square{
     height:25px;
     width:25px;
@@ -32,7 +36,7 @@ body{
     background:black;
 }
 
-.erase{
+#erase{
     background-color:#008CBA;
     border-radius: 5px;
     padding:10px;
