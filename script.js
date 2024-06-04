@@ -11,15 +11,23 @@ const container = document.getElementById('container');
 //adjust container width and height based on number of squares?
 //ex: height and width should both equal to length and width * number of rows and columns
 
+//let gridwidth = user input?
 
 
 
 //loop to create grid based on userinput
-for (let i = 0; i < 12; i++) {
-    //create a div
+for (let i = 0; i < 64; i++) {
+    //create a div  
     const square = document.createElement('div');
-    square.className = 'square';
+    //set class name
+    square.classList.add('square');
     //add to container
     container.appendChild(square);
-    console.log('bungus');
- }
+ 
+
+
+    square.addEventListener('mouseover', () => {
+        square.classList.add('colored');
+    })
+
+}

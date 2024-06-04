@@ -15,12 +15,25 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-right:auto;
+    margin-left:auto;
+    flex-wrap:wrap;
+    max-width:250px;
+}
 
 .square{
-    height:30px;
-    width:30px;
-    margin:5px;
-    background: blue;
-    justify-content: center;
-    align-items: center;
+    height:25px;
+    width:25px;
+    border: 3px solid black;
+    background:white;
+}
+
+.colored{
+    background:black;
+}
+
+.erase{
+    background-color:#008CBA;
+    border-radius: 5px;
+    padding:10px;
 }
